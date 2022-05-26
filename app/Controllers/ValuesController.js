@@ -5,7 +5,7 @@ import valuesService from "../Services/ValuesService.js";
 //Private
 function _draw() {
   let itemTemplate = ''
-  document.getElementById("app").innerText = ProxyState.money.toString()
+  document.getElementById("money").innerText = ProxyState.money.toString()
   ProxyState.items.forEach(i => itemTemplate = i.Template)
   document.getElementById('app').innerHTML = itemTemplate
 }

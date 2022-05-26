@@ -10,6 +10,9 @@ values service: add money does not use proxystate, failing to trigger listener
 main.js: valuesController missing s after value
 
 
+_draw() valuesController: has bad id in getElementById 
+
+
 _draw() valuesController: in foreach only has a = instead of a +=
 
 
