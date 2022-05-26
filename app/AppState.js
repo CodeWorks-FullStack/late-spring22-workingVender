@@ -5,7 +5,7 @@ import { isValidProp } from "./Utils/isValidProp.js"
 let pickleChips = new Item("pickle chips", 1.25)
 let cheese = new Item("swiss cheese", 1.25)
 let candy = new Item("cow tails", 2.00)
-let drink = new Item("hot coffee" 2.00)
+let drink = new Item("hot coffee", "2.00")
 
 class AppState extends EventEmitter {
   /** @type {Item[]} */

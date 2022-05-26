@@ -1,7 +1,7 @@
-import ValuesController from "./Controllers/ValuesController";
+import { ValuesController } from "./Controllers/ValuesController";
 
 class App {
-  valuesController = new ValuesController();
+  valueController = new ValuesController();
 }
 
 window["app"] = new App();
